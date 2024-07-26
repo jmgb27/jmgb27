@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm John</h1>
-<h3 align="center">A passionate AI Solutions Engineer from Philippines! :)</h3>
+<h3 align="center">A passionate AI Solutions Engineer from the Philippines! :)</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jmgb27" alt="jmgb27" /></a> </p>
 

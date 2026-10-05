@@ -1,72 +1,34 @@
-# Hey there 👋
+# John Mark Bulabos
 
-I'm John. I automate repetitive tasks so humans can focus on creating new problems.
+Full-stack engineer in the Philippines. I build automation and AI systems, then measure whether they were worth building. Sometimes the answer is no, and I publish that too.
 
-Kidding aside, I enjoy building systems that reduce friction, simplify workflows, and remove repetitive work...that makes people question their career choices.
+**[johnmark.dev](https://johnmark.dev)** · [LinkedIn](https://www.linkedin.com/in/johnmarkbulabos)
 
-## What I Actually Do
+## Recent experiments
 
-* Automate repetitive workflows before another employee mysteriously “pursues new opportunities”
-* Reduce unnecessary complexity instead of adding “enterprise-grade innovation”
-* Connect tools that clearly never wanted to communicate with each other
-* Build systems that quietly handle repetitive work in the background
-* Develop AI agents and AI-powered workflows when AI actually makes sense
-* and...avoid shoving AI into everything like it’s seasoning 🙅🧂🌶️🌿🧄
+- **[Fine-tuning an open classifier vs a paid API](https://johnmark.dev/blog/laya-vs-jev-toxicity-fine-tune)**: matched human raters on all 7 toxicity labels for 83% of comments, vs 27% for the API. It also broke the model's other skills. [Code and predictions](https://github.com/jmgb27/laya-vs-jev-toxicity).
+- **[Python to Rust for an AI voice engine](https://johnmark.dev/blog/python-to-rust-voice-engine)**: on the same server, Rust carried 3.75x the calls of the best Python setup (one load test each).
+- **[Cheap vision models for OCR](https://johnmark.dev/blog/vision-ocr-benchmark)**: 14 models on 200 images; five scored 90–93%, the cheapest at $0.11 per 1,000 images. [Code and results](https://github.com/jmgb27/vision-ocr-benchmark).
+- **[Code graph in Claude Code](https://johnmark.dev/blog/code-graph-agent-cost)**: 27% cheaper for Haiku on long tasks, no clear gain for Opus. [Code and transcripts](https://github.com/jmgb27/code-graph-agent-cost).
 
-## Philosophy
+## Stack
 
-> "If the workflow feels cursed, simplify first."
+- **Languages:** Python, TypeScript / JavaScript, Rust, SQL, Bash
+- **Frontend:** React, Next.js, Tailwind CSS, Vite
+- **Backend:** FastAPI, Node.js / Express, NestJS, REST, webhooks
+- **AI:** LangGraph / LangChain, LlamaIndex, RAG, MCP, tool calling, LiteLLM, OpenAI / Anthropic / Vertex AI, Whisper, llama.cpp, vLLM, Hugging Face
+- **Data:** PostgreSQL / pgvector, Prisma, Drizzle, MongoDB, Supabase, Prefect, dbt
+- **Cloud & infra:** AWS, GCP, Azure, Cloudflare Workers, Docker, Kubernetes (K3s), Istio, Terraform, Ansible, Proxmox
+- **CI/CD:** GitHub Actions, GitLab CI, Cloud Build, ArgoCD
+- **Observability & testing:** Prometheus, Grafana, Langfuse, Helicone, Pytest, Vitest, Jest, Playwright, LLM evals
+- **Automation:** n8n, Activepieces, Google Apps Script
 
-I don’t automate things just because I can.
+## Off the clock
 
-Sometimes the best solution is:
-
-* fewer moving parts
-* deleting unnecessary steps
-* fixing the actual process first
-* or...simply not creating another microservice 😬
-
-Good systems should feel boring in the best possible way.
-
-## Tech Stack
-
-```yaml
-Languages:
-  - Python
-  - JavaScript / TypeScript
-  - SQL
-  - Bash
-
-Automation:
-  - GitHub Actions
-  - APIs
-  - Selenium / Playwright
-  - ActivePieces / N8N / Zapier / Make
-
-Tools:
-  - Docker
-  - Linux
-  - PostgreSQL
-  - Node.js
-```
-
-## My Non-Production Environment
-
-* 🖥️ Homelabbing (converting free time into troubleshooting)
-* 🤖 Slowly working toward robotics 
-* 🔧 Reviving dead hardware like a tech necromancer
-* 🎸 Slapping Bass guitar (yes im a davie504 fan)
-* 🧪 Constant experimentation and tinkering because “fail fast” sounded more professional than “randomly breaking stuff”
-
-## Fun Facts
-
-* My homelab is held together by curiosity and questionable financial decisions.
-* “Temporary solution” is one of the strongest forces in engineering.
+Running a 3-node Proxmox homelab, reviving dead hardware, and slapping bass (yes, Davie504 fan).
 
 ```diff
-+ Reduce friction.
 + Keep systems simple.
-+ Automate with purpose.
 + Use AI when it genuinely helps.
 - Add 14 microservices to solve a 2-line problem.
 - Build an AI agent to rename PDFs.
